@@ -51,8 +51,8 @@
   <g transform="translate(24, 52)">
     <rect x="0" y="0" width="136" height="100" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
     <text x="14" y="24" class="font-mono label">CURRENT STREAK</text>
-    <text x="14" y="60" class="font-mono value" fill="#3fb950">0 <tspan font-size="12" font-weight="400" fill="#8b949e">DAYS</tspan></text>
-    <text x="14" y="84" class="font-mono sub">Ready for next push</text>
+    <text x="14" y="60" class="font-mono value" fill="#3fb950">1 <tspan font-size="12" font-weight="400" fill="#8b949e">DAYS</tspan></text>
+    <text x="14" y="84" class="font-mono sub">Active momentum</text>
   </g>
 
   <!-- Longest Streak -->
@@ -67,7 +67,7 @@
   <g transform="translate(320, 52)">
     <rect x="0" y="0" width="144" height="100" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
     <text x="14" y="24" class="font-mono label">ANNUAL CADENCE</text>
-    <text x="14" y="60" class="font-mono value" fill="#e6edf3">33</text>
+    <text x="14" y="60" class="font-mono value" fill="#e6edf3">35</text>
     <text x="14" y="84" class="font-mono sub">365-day total</text>
   </g>
 
@@ -92,7 +92,7 @@
 <rect x="730" y="127" width="14" height="3" rx="2" fill="#21262d" />
 <rect x="750" y="127" width="14" height="3" rx="2" fill="#21262d" />
 <rect x="770" y="78" width="14" height="52" rx="2" fill="#238636" />
-<rect x="790" y="127" width="14" height="3" rx="2" fill="#21262d" />
+<rect x="790" y="109" width="14" height="21" rx="2" fill="#238636" />
 
     </g>
     <text x="14" y="90" class="font-mono sub">&#8592; 16 wks ago</text>

@@ -149,6 +149,7 @@ async function runTests() {
   assert(workflowContent.includes('workflow_dispatch:'), 'Workflow must support manual trigger');
   assert(workflowContent.includes('contents: write'), 'Workflow must specify contents: write permission');
   assert(workflowContent.includes('node scripts/generate.js'), 'Workflow must run generator script');
+  assert(workflowContent.includes('steps.git_status.outputs.changes_detected'), 'Workflow must use valid expression syntax steps.git_status.outputs.changes_detected');
   console.log('  ✓ GitHub Actions workflow contains required triggers, permissions, and steps');
 
   // Test 6: Running generate.js end-to-end and verifying determinism

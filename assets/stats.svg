@@ -56,7 +56,7 @@
   <g transform="translate(24, 48)">
     <rect x="0" y="0" width="124" height="106" rx="6" class="metric-box" />
     <text x="14" y="24" class="font-mono label">PUBLIC REPOS</text>
-    <text x="14" y="62" class="font-mono value">5</text>
+    <text x="14" y="62" class="font-mono value">6</text>
     <text x="14" y="88" class="font-mono sub">Active Projects</text>
   </g>
 
@@ -80,7 +80,7 @@
   <g transform="translate(426, 48)">
     <rect x="0" y="0" width="134" height="106" rx="6" class="metric-box" />
     <text x="14" y="24" class="font-mono label">CONTRIBUTIONS</text>
-    <text x="14" y="62" class="font-mono value" fill="#3fb950">33</text>
+    <text x="14" y="62" class="font-mono value" fill="#3fb950">35</text>
     <text x="14" y="88" class="font-mono sub">Past 12 Months</text>
   </g>
 
@@ -88,7 +88,7 @@
   <g transform="translate(570, 48)">
     <rect x="0" y="0" width="120" height="106" rx="6" class="metric-box" />
     <text x="14" y="24" class="font-mono label">ACTIVE DAYS</text>
-    <text x="14" y="62" class="font-mono value">6</text>
+    <text x="14" y="62" class="font-mono value">7</text>
     <text x="14" y="88" class="font-mono sub">Work Days</text>
   </g>
 

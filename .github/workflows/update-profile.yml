@@ -43,7 +43,7 @@ jobs:
           fi
 
       - name: Commit and Push Changes
-        if: steps:git_status.outputs.changes_detected == 'true'
+        if: steps.git_status.outputs.changes_detected == 'true'
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"

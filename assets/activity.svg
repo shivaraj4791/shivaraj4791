@@ -51,30 +51,30 @@
   
       <g transform="translate(24, 56)">
         <circle cx="6" cy="6" r="3" fill="#58a6ff" />
+        <text x="18" y="10" class="font-mono" font-size="12" font-weight="600" fill="#e6edf3">shivaraj4791</text>
+        <text x="220" y="10" class="font-mono sub" fill="#8b949e">No description provided.</text>
+        <text x="680" y="10" class="font-mono sub" fill="#58a6ff">JavaScript</text>
+        <text x="770" y="10" class="font-mono sub" fill="#e3b341">&#9733; 0</text>
+      </g>
+      <g transform="translate(24, 84)">
+        <circle cx="6" cy="6" r="3" fill="#58a6ff" />
         <text x="18" y="10" class="font-mono" font-size="12" font-weight="600" fill="#e6edf3">ML-challenge</text>
         <text x="220" y="10" class="font-mono sub" fill="#8b949e">No description provided.</text>
         <text x="680" y="10" class="font-mono sub" fill="#58a6ff">Python</text>
         <text x="770" y="10" class="font-mono sub" fill="#e3b341">&#9733; 0</text>
       </g>
-      <g transform="translate(24, 84)">
+      <g transform="translate(24, 112)">
         <circle cx="6" cy="6" r="3" fill="#58a6ff" />
         <text x="18" y="10" class="font-mono" font-size="12" font-weight="600" fill="#e6edf3">VENDRA</text>
         <text x="220" y="10" class="font-mono sub" fill="#8b949e">Vendra: an autonomous buyer agent and Razorpay Test ...</text>
         <text x="680" y="10" class="font-mono sub" fill="#58a6ff">Code</text>
         <text x="770" y="10" class="font-mono sub" fill="#e3b341">&#9733; 0</text>
       </g>
-      <g transform="translate(24, 112)">
+      <g transform="translate(24, 140)">
         <circle cx="6" cy="6" r="3" fill="#58a6ff" />
         <text x="18" y="10" class="font-mono" font-size="12" font-weight="600" fill="#e6edf3">Shiva-Raj-Portfolio</text>
         <text x="220" y="10" class="font-mono sub" fill="#8b949e">CSE (AI &amp; ML) student who enjoys building real-world...</text>
         <text x="680" y="10" class="font-mono sub" fill="#58a6ff">TypeScript</text>
-        <text x="770" y="10" class="font-mono sub" fill="#e3b341">&#9733; 0</text>
-      </g>
-      <g transform="translate(24, 140)">
-        <circle cx="6" cy="6" r="3" fill="#58a6ff" />
-        <text x="18" y="10" class="font-mono" font-size="12" font-weight="600" fill="#e6edf3">Weather-Forecast-Application</text>
-        <text x="220" y="10" class="font-mono sub" fill="#8b949e">No description provided.</text>
-        <text x="680" y="10" class="font-mono sub" fill="#58a6ff">CSS</text>
         <text x="770" y="10" class="font-mono sub" fill="#e3b341">&#9733; 0</text>
       </g>
 </svg>
