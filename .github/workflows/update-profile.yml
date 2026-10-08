@@ -23,8 +23,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: false
+          node-version: 22
 
       - name: Run Profile Telemetry Generator
         env:
