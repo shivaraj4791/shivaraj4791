@@ -53,30 +53,23 @@ export class FeaturedReposManager {
   }
 
   /**
-   * Formats featured repositories into clean, recruiter-friendly Markdown.
+   * Formats featured repositories into clean, recruiter-friendly Markdown matching Andrii Drok's aesthetic.
    */
   static formatMarkdown(featuredRepos, username) {
     if (!featuredRepos || featuredRepos.length === 0) {
       return `_No public repositories currently featured._\n`;
     }
 
-    let md = `| Project | Description | Stack | Stats |\n`;
-    md += `| :--- | :--- | :--- | :---: |\n`;
-
+    const blocks = [];
     for (const repo of featuredRepos) {
       const name = repo.name;
       const url = repo.url || `https://github.com/${username}/${name}`;
       const desc = repo.description ? repo.description.trim() : 'Project repository and source code.';
-      const lang = repo.primaryLanguage?.name || 'Multi-stack';
-      const stars = repo.stargazerCount || 0;
-      const forks = repo.forkCount || 0;
+      const lang = (repo.primaryLanguage?.name || 'code').toLowerCase();
 
-      // Clean truncate if too long
-      const safeDesc = desc.replace(/\|/g, '\\|');
-
-      md += `| [**${name}**](${url}) | ${safeDesc} | \`${lang}\` | &#9733; ${stars} &bull; &#9903; ${forks} |\n`;
+      blocks.push(`**[${name}](${url})** &nbsp;·&nbsp; <samp>${lang}</samp><br>\n${desc}`);
     }
 
-    return md;
+    return blocks.join('\n\n') + '\n';
   }
 }

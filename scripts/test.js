@@ -159,7 +159,7 @@ async function runTests() {
   // Read generated files after Run 1
   const readmePath = path.join(ROOT_DIR, 'README.md');
   const readmeAfterRun1 = fs.readFileSync(readmePath, 'utf8');
-  const statsSvgPath = path.join(ROOT_DIR, 'assets', 'stats.svg');
+  const statsSvgPath = path.join(ROOT_DIR, 'stats.svg');
   const statsSvgAfterRun1 = fs.readFileSync(statsSvgPath, 'utf8');
 
   // Run 2
@@ -170,18 +170,18 @@ async function runTests() {
   const statsSvgAfterRun2 = fs.readFileSync(statsSvgPath, 'utf8');
 
   assert(readmeAfterRun1 === readmeAfterRun2, 'Deterministic check failed: README.md changed on second run with identical data!');
-  assert(statsSvgAfterRun1 === statsSvgAfterRun2, 'Deterministic check failed: assets/stats.svg changed on second run with identical data!');
+  assert(statsSvgAfterRun1 === statsSvgAfterRun2, 'Deterministic check failed: stats.svg changed on second run with identical data!');
   console.log('  ✓ Determinism verified: zero diff produced across consecutive executions');
 
-  // Verify all asset files exist
-  const requiredSvgs = ['header.svg', 'stats.svg', 'streak.svg', 'languages.svg', 'activity.svg'];
+  // Verify all telemetry SVGs exist
+  const requiredSvgs = ['ascii.svg', 'stats.svg', 'streak.svg', 'langs.svg', 'year.svg', 'hd-about.svg', 'hd-stack.svg', 'hd-projects.svg', 'hd-stats.svg'];
   for (const svg of requiredSvgs) {
-    const p = path.join(ROOT_DIR, 'assets', svg);
+    const p = path.join(ROOT_DIR, svg);
     assert(fs.existsSync(p), `Required asset ${svg} is missing!`);
     const content = fs.readFileSync(p, 'utf8');
     validateSvgXml(content, svg);
   }
-  console.log('  ✓ All 5 standalone SVG telemetry assets exist and passed XML validation');
+  console.log('  ✓ All telemetry & ASCII SVG assets exist and passed XML validation');
 
   console.log('\n🎉 ALL TESTS PASSED SUCCESSFULLY! The system is production-ready.\n');
 }
