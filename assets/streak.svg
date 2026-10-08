@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 180" width="100%" height="180">
+  <defs>
+    <linearGradient id="streakBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
+  </defs>
+  <style>
+    
+  .font-mono {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace;
+  }
+  .title {
+    font-size: 14px;
+    font-weight: 600;
+    fill: #58a6ff;
+    letter-spacing: 0.5px;
+  }
+  .label {
+    font-size: 11px;
+    font-weight: 400;
+    fill: #8b949e;
+    letter-spacing: 0.3px;
+  }
+  .value {
+    font-size: 20px;
+    font-weight: 700;
+    fill: #e6edf3;
+    letter-spacing: -0.5px;
+  }
+  .sub {
+    font-size: 10px;
+    fill: #6e7681;
+  }
+  .badge-bg {
+    fill: #21262d;
+    stroke: #30363d;
+    stroke-width: 1;
+  }
+
+  </style>
+
+  <!-- Container -->
+  <rect x="1" y="1" width="838" height="178" rx="8" fill="url(#streakBg)" stroke="#30363d" stroke-width="1" />
+
+  <!-- Title -->
+  <text x="24" y="32" class="font-mono title">&#9889; COMMIT ACTIVITY &amp; CADENCE</text>
+  <text x="690" y="32" class="font-mono sub">16-WEEK TRAJECTORY</text>
+
+  <!-- Current Streak -->
+  <g transform="translate(24, 52)">
+    <rect x="0" y="0" width="136" height="100" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="14" y="24" class="font-mono label">CURRENT STREAK</text>
+    <text x="14" y="60" class="font-mono value" fill="#3fb950">0 <tspan font-size="12" font-weight="400" fill="#8b949e">DAYS</tspan></text>
+    <text x="14" y="84" class="font-mono sub">Ready for next push</text>
+  </g>
+
+  <!-- Longest Streak -->
+  <g transform="translate(172, 52)">
+    <rect x="0" y="0" width="136" height="100" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="14" y="24" class="font-mono label">LONGEST STREAK</text>
+    <text x="14" y="60" class="font-mono value" fill="#58a6ff">2 <tspan font-size="12" font-weight="400" fill="#8b949e">DAYS</tspan></text>
+    <text x="14" y="84" class="font-mono sub">Personal best</text>
+  </g>
+
+  <!-- Total Contributions -->
+  <g transform="translate(320, 52)">
+    <rect x="0" y="0" width="144" height="100" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="14" y="24" class="font-mono label">ANNUAL CADENCE</text>
+    <text x="14" y="60" class="font-mono value" fill="#e6edf3">33</text>
+    <text x="14" y="84" class="font-mono sub">365-day total</text>
+  </g>
+
+  <!-- Weekly Activity Sparkline Container -->
+  <g transform="translate(476, 52)">
+    <rect x="0" y="0" width="340" height="100" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="14" y="22" class="font-mono label">WEEKLY VELOCITY (PAST 16 WEEKS)</text>
+    <!-- Sparkline Bars -->
+    <g transform="translate(-476, -52)">
+      <rect x="490" y="127" width="14" height="3" rx="2" fill="#21262d" />
+<rect x="510" y="127" width="14" height="3" rx="2" fill="#21262d" />
+<rect x="530" y="127" width="14" height="3" rx="2" fill="#21262d" />
+<rect x="550" y="127" width="14" height="3" rx="2" fill="#21262d" />
+<rect x="570" y="127" width="14" height="3" rx="2" fill="#21262d" />
+<rect x="590" y="127" width="14" height="3" rx="2" fill="#21262d" />
+<rect x="610" y="127" width="14" height="3" rx="2" fill="#21262d" />
+<rect x="630" y="127" width="14" height="3" rx="2" fill="#21262d" />
+<rect x="650" y="127" width="14" height="3" rx="2" fill="#21262d" />
+<rect x="670" y="88" width="14" height="42" rx="2" fill="#238636" />
+<rect x="690" y="88" width="14" height="42" rx="2" fill="#238636" />
+<rect x="710" y="127" width="14" height="3" rx="2" fill="#21262d" />
+<rect x="730" y="127" width="14" height="3" rx="2" fill="#21262d" />
+<rect x="750" y="127" width="14" height="3" rx="2" fill="#21262d" />
+<rect x="770" y="78" width="14" height="52" rx="2" fill="#238636" />
+<rect x="790" y="127" width="14" height="3" rx="2" fill="#21262d" />
+
+    </g>
+    <text x="14" y="90" class="font-mono sub">&#8592; 16 wks ago</text>
+    <text x="270" y="90" class="font-mono sub">Present &#8594;</text>
+  </g>
+</svg>

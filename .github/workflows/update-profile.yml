@@ -1,0 +1,52 @@
+name: Auto-Update Profile Telemetry
+
+on:
+  schedule:
+    # Run once daily at 04:00 UTC (avoids high-traffic midnight runs)
+    - cron: '0 4 * * *'
+  workflow_dispatch: # Allows manual trigger anytime from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: false
+
+      - name: Run Profile Telemetry Generator
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node scripts/generate.js
+
+      - name: Check for Git Diffs
+        id: git_status
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changes_detected=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changes_detected=false" >> "$GITHUB_OUTPUT"
+            echo "Profile telemetry is already up-to-date. No commit needed."
+          fi
+
+      - name: Commit and Push Changes
+        if: steps:git_status.outputs.changes_detected == 'true'
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md assets/*.svg
+          git commit -m "chore(telemetry): auto-sync profile stats and SVG dashboards [skip ci]"
+          git push

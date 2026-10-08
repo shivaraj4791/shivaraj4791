@@ -1,0 +1,55 @@
+{
+  "username": "shivaraj4791",
+  "displayName": "Shiva Raj",
+  "role": "Software & AI/ML Engineer",
+  "tagline": "Building Autonomous Agents, Scalable Backends & AI Systems",
+  "bio": "CSE (AI & ML) student who loves building real-world projects and learning by doing. Focused on autonomous multi-agent systems, backend engineering, and applied machine learning.",
+  "location": "India",
+  "status": {
+    "currentlyWorkingOn": {
+      "title": "VENDRA",
+      "description": "Autonomous buyer agent with real-time merchant workflows",
+      "url": "https://github.com/shivaraj4791/VENDRA"
+    },
+    "learning": "Autonomous Multi-Agent Architectures & High-Performance Backends",
+    "collaboratingOn": "Open-Source AI & Developer Tooling"
+  },
+  "featuredRepos": [
+    "VENDRA",
+    "Shiva-Raj-Portfolio",
+    "ML-challenge",
+    "Weather-Forecast-Application"
+  ],
+  "social": {
+    "github": "https://github.com/shivaraj4791",
+    "portfolio": "https://shivaraj4791.github.io/Shiva-Raj-Portfolio",
+    "email": "shivaraj4791@gmail.com"
+  },
+  "skills": {
+    "Languages": ["Python", "JavaScript", "TypeScript", "C", "C++", "Java", "SQL"],
+    "AI & ML": ["PyTorch", "Scikit-Learn", "OpenCV", "LangChain", "Autonomous Agents"],
+    "Backend & Web": ["Node.js", "FastAPI", "Express", "REST APIs", "HTML5/CSS3"],
+    "DevOps & Tools": ["Git", "GitHub Actions", "Docker", "Linux", "VS Code"]
+  },
+  "sections": {
+    "headerBanner": true,
+    "statsCard": true,
+    "streakCard": true,
+    "languagesCard": true,
+    "featuredRepos": true,
+    "recentActivity": true
+  },
+  "theme": {
+    "background": "#0d1117",
+    "cardBackground": "#161b22",
+    "borderColor": "#30363d",
+    "textPrimary": "#e6edf3",
+    "textSecondary": "#8b949e",
+    "textMuted": "#6e7681",
+    "accent": "#58a6ff",
+    "accentGlow": "#1f6feb",
+    "success": "#3fb950",
+    "warning": "#d29922",
+    "purple": "#bc8cff"
+  }
+}

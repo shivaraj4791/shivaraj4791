@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 180" width="100%" height="180">
+  <defs>
+    <linearGradient id="actBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
+  </defs>
+  <style>
+    
+  .font-mono {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace;
+  }
+  .title {
+    font-size: 14px;
+    font-weight: 600;
+    fill: #58a6ff;
+    letter-spacing: 0.5px;
+  }
+  .label {
+    font-size: 11px;
+    font-weight: 400;
+    fill: #8b949e;
+    letter-spacing: 0.3px;
+  }
+  .value {
+    font-size: 20px;
+    font-weight: 700;
+    fill: #e6edf3;
+    letter-spacing: -0.5px;
+  }
+  .sub {
+    font-size: 10px;
+    fill: #6e7681;
+  }
+  .badge-bg {
+    fill: #21262d;
+    stroke: #30363d;
+    stroke-width: 1;
+  }
+
+  </style>
+
+  <!-- Container -->
+  <rect x="1" y="1" width="838" height="178" rx="8" fill="url(#actBg)" stroke="#30363d" stroke-width="1" />
+
+  <!-- Title -->
+  <text x="24" y="32" class="font-mono title">&#128640; RECENT REPOSITORY ACTIVITY</text>
+  <text x="690" y="32" class="font-mono sub">FRESH COMMITS &amp; BUILDS</text>
+
+  <!-- Activity Rows -->
+  
+      <g transform="translate(24, 56)">
+        <circle cx="6" cy="6" r="3" fill="#58a6ff" />
+        <text x="18" y="10" class="font-mono" font-size="12" font-weight="600" fill="#e6edf3">ML-challenge</text>
+        <text x="220" y="10" class="font-mono sub" fill="#8b949e">No description provided.</text>
+        <text x="680" y="10" class="font-mono sub" fill="#58a6ff">Python</text>
+        <text x="770" y="10" class="font-mono sub" fill="#e3b341">&#9733; 0</text>
+      </g>
+      <g transform="translate(24, 84)">
+        <circle cx="6" cy="6" r="3" fill="#58a6ff" />
+        <text x="18" y="10" class="font-mono" font-size="12" font-weight="600" fill="#e6edf3">VENDRA</text>
+        <text x="220" y="10" class="font-mono sub" fill="#8b949e">Vendra: an autonomous buyer agent and Razorpay Test ...</text>
+        <text x="680" y="10" class="font-mono sub" fill="#58a6ff">Code</text>
+        <text x="770" y="10" class="font-mono sub" fill="#e3b341">&#9733; 0</text>
+      </g>
+      <g transform="translate(24, 112)">
+        <circle cx="6" cy="6" r="3" fill="#58a6ff" />
+        <text x="18" y="10" class="font-mono" font-size="12" font-weight="600" fill="#e6edf3">Shiva-Raj-Portfolio</text>
+        <text x="220" y="10" class="font-mono sub" fill="#8b949e">CSE (AI &amp; ML) student who enjoys building real-world...</text>
+        <text x="680" y="10" class="font-mono sub" fill="#58a6ff">TypeScript</text>
+        <text x="770" y="10" class="font-mono sub" fill="#e3b341">&#9733; 0</text>
+      </g>
+      <g transform="translate(24, 140)">
+        <circle cx="6" cy="6" r="3" fill="#58a6ff" />
+        <text x="18" y="10" class="font-mono" font-size="12" font-weight="600" fill="#e6edf3">Weather-Forecast-Application</text>
+        <text x="220" y="10" class="font-mono sub" fill="#8b949e">No description provided.</text>
+        <text x="680" y="10" class="font-mono sub" fill="#58a6ff">CSS</text>
+        <text x="770" y="10" class="font-mono sub" fill="#e3b341">&#9733; 0</text>
+      </g>
+</svg>

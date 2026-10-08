@@ -1,0 +1,20 @@
+{
+  "name": "github-profile-generator",
+  "version": "1.0.0",
+  "description": "A fully automated, self-generating GitHub profile README powered by GitHub Actions, GraphQL/REST APIs, and zero-dependency SVG dashboards.",
+  "type": "module",
+  "main": "scripts/generate.js",
+  "scripts": {
+    "generate": "node scripts/generate.js",
+    "test": "node scripts/test.js"
+  },
+  "keywords": [
+    "github-profile",
+    "readme",
+    "svg",
+    "github-actions",
+    "automation"
+  ],
+  "author": "Shiva Raj",
+  "license": "MIT"
+}
