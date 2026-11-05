@@ -4,41 +4,45 @@
 
 <img src="./stats.svg" width="620" alt="Contributions in the last year"/>
 
-[portfolio](https://shivaraj4791.github.io/Shiva-Raj-Portfolio) &nbsp;·&nbsp;
+[portfolio](https://shiva-raj-portfolio.vercel.app) &nbsp;·&nbsp;
 [github](https://github.com/shivaraj4791) &nbsp;·&nbsp;
-[linkedin](https://www.linkedin.com/in/shivaraj4791) &nbsp;·&nbsp;
+[linkedin](https://www.linkedin.com/in/shiva-raj-govikar-6b3b17324/) &nbsp;·&nbsp;
 [email](mailto:shivaraj4791@gmail.com)
 
 </div>
 
 <img src="./hd-about.svg" width="620" alt="about"/>
 
-> CSE (AI & ML) student who loves building real-world projects and learning by doing.<br>
-> Small, sharp tools over big vague ideas.
+> B.Tech CSE (AI & ML) student graduating in 2027, interested in applied machine learning, AI systems, and backend engineering.
 
-I focus on building autonomous multi-agent systems, backend engineering, and applied machine learning.<br>
-Right now that's [VENDRA](https://github.com/shivaraj4791/VENDRA) — an autonomous buyer agent with Razorpay integration.<br>
-Also exploring multi-agent architectures, distributed systems, and real-time developer tooling.
+I enjoy learning by building practical projects, exploring autonomous multi-agent systems, and developing software that solves real problems. I am currently strengthening my foundations in Python, Java, and machine learning while building and experimenting with end-to-end applications.
 
 <img src="./hd-stack.svg" width="620" alt="stack"/>
 
-<samp>python &nbsp; typescript &nbsp; javascript &nbsp; c &nbsp; c++ &nbsp; java &nbsp; fastapi &nbsp; node &nbsp; pytorch &nbsp; docker &nbsp; git &nbsp; linux</samp>
+<samp>python &nbsp; typescript &nbsp; javascript &nbsp; c &nbsp; c++ &nbsp; java &nbsp; fastapi &nbsp; node.js &nbsp; pytorch &nbsp; docker &nbsp; git &nbsp; linux</samp>
 
 <img src="./hd-projects.svg" width="620" alt="projects"/>
 
 <!-- FEATURED_REPOS:START -->
-**[VENDRA](https://github.com/shivaraj4791/VENDRA)** &nbsp;·&nbsp; <samp>code</samp><br>
-Vendra: an autonomous buyer agent and Razorpay Test Mode merchant demo.
-
-**[Shiva-Raj-Portfolio](https://github.com/shivaraj4791/Shiva-Raj-Portfolio)** &nbsp;·&nbsp; <samp>typescript</samp><br>
-CSE (AI & ML) student who enjoys building real-world projects and learning by doing. I work with Python, Java & C, and I’m exploring AI/ML, backend development, and DSA. Currently looking for opportunities to learn, contribute, and grow as a software/AI engineer. 🚀
+**[VENDRA](https://github.com/shivaraj4791/VENDRA)** &nbsp;·&nbsp; <samp>autonomous buyer agent</samp><br>
+An autonomous buyer-agent project with a Razorpay Test Mode merchant demo.
 
 **[ML-challenge](https://github.com/shivaraj4791/ML-challenge)** &nbsp;·&nbsp; <samp>python</samp><br>
-Project repository and source code.
+Machine-learning challenge work and experiments.
 
-**[Weather-Forecast-Application](https://github.com/shivaraj4791/Weather-Forecast-Application)** &nbsp;·&nbsp; <samp>css</samp><br>
-Project repository and source code.
+**[SmartCivic-System](https://github.com/shivaraj4791/SmartCivic-System)** &nbsp;·&nbsp; <samp>react · node.js · mongodb</samp><br>
+A civic complaint platform with geolocation and image attachments, status tracking, issue prioritization, and an admin analytics dashboard.
+
+**[Weather-Forecast-Application](https://github.com/shivaraj4791/Weather-Forecast-Application)** &nbsp;·&nbsp; <samp>javascript</samp><br>
+A responsive weather application using the OpenWeatherMap API for live city-based weather information.
+
+**[Shiva-Raj-Portfolio](https://github.com/shivaraj4791/Shiva-Raj-Portfolio)** &nbsp;·&nbsp; <samp>next.js · typescript</samp><br>
+Personal portfolio project showcasing skills, projects, and professional experience.
 <!-- FEATURED_REPOS:END -->
+
+<img src="./hd-about-this-page.svg" width="620" alt="about this page"/>
+
+> **Achievement:** 1st place with Team Vexora in the college-level Internal Smart India Hackathon (SIH).
 
 <img src="./hd-stats.svg" width="620" alt="stats"/>
 
@@ -47,8 +51,6 @@ Project repository and source code.
 <img src="./langs.svg" width="620" alt="languages"/>
 
 <img src="./year.svg" width="620" alt="the year"/>
-
-<img src="./hd-about-this-page.svg" width="620" alt="about this page"/>
 
 <!-- AUTO-GENERATED:START -->
 > Generated automatically by a daily GitHub Actions workflow with zero external dependencies.<br>
