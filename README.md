@@ -24,20 +24,17 @@ I enjoy learning by building practical projects, exploring autonomous multi-agen
 <img src="./hd-projects.svg" width="620" alt="projects"/>
 
 <!-- FEATURED_REPOS:START -->
-**[VENDRA](https://github.com/shivaraj4791/VENDRA)** &nbsp;·&nbsp; <samp>autonomous buyer agent</samp><br>
-An autonomous buyer-agent project with a Razorpay Test Mode merchant demo.
+**[VENDRA](https://github.com/shivaraj4791/VENDRA)** &nbsp;·&nbsp; <samp>code</samp><br>
+Vendra: an autonomous buyer agent and Razorpay Test Mode merchant demo.
+
+**[Shiva-Raj-Portfolio](https://github.com/shivaraj4791/Shiva-Raj-Portfolio)** &nbsp;·&nbsp; <samp>typescript</samp><br>
+CSE (AI & ML) student who enjoys building real-world projects and learning by doing. I work with Python, Java & C, and I’m exploring AI/ML, backend development, and DSA. Currently looking for opportunities to learn, contribute, and grow as a software/AI engineer. 🚀
 
 **[ML-challenge](https://github.com/shivaraj4791/ML-challenge)** &nbsp;·&nbsp; <samp>python</samp><br>
-Machine-learning challenge work and experiments.
+Project repository and source code.
 
-**[SmartCivic-System](https://github.com/shivaraj4791/SmartCivic-System)** &nbsp;·&nbsp; <samp>react · node.js · mongodb</samp><br>
-A civic complaint platform with geolocation and image attachments, status tracking, issue prioritization, and an admin analytics dashboard.
-
-**[Weather-Forecast-Application](https://github.com/shivaraj4791/Weather-Forecast-Application)** &nbsp;·&nbsp; <samp>javascript</samp><br>
-A responsive weather application using the OpenWeatherMap API for live city-based weather information.
-
-**[Shiva-Raj-Portfolio](https://github.com/shivaraj4791/Shiva-Raj-Portfolio)** &nbsp;·&nbsp; <samp>next.js · typescript</samp><br>
-Personal portfolio project showcasing skills, projects, and professional experience.
+**[Weather-Forecast-Application](https://github.com/shivaraj4791/Weather-Forecast-Application)** &nbsp;·&nbsp; <samp>css</samp><br>
+Project repository and source code.
 <!-- FEATURED_REPOS:END -->
 
 <img src="./hd-about-this-page.svg" width="620" alt="about this page"/>
